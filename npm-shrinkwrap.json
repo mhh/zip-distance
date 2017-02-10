@@ -1,0 +1,11 @@
+{
+  "name": "zip-distance",
+  "version": "1.0.0",
+  "dependencies": {
+    "zipcodes": {
+      "version": "2.1.0",
+      "from": "zipcodes@latest",
+      "resolved": "https://registry.npmjs.org/zipcodes/-/zipcodes-2.1.0.tgz"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "zip-distance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Matt Higgins",
+  "license": "ISC",
+  "dependencies": {
+    "zipcodes": "^2.1.0"
+  },
+  "private": true
+}
