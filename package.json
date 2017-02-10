@@ -1,11 +1,17 @@
 {
   "name": "zip-distance",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Matt Higgins",
   "license": "ISC",
   "dependencies": {
     "zipcodes": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": "mhh/zip-distance",
+  "scripts": {
+    "start": "node index.js"
   },
   "private": true
 }
