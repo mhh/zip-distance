@@ -21,10 +21,13 @@ rl.on('line', (line) => {
 });
 
 function get(list, index) {
+	const raw = list[index];
 	const input = list[index].trim();
 
 	if (!/^[0-9]{5}$/.test(input))
-		console.error('bad zip:', input);
+		console.error('bad input:', raw);
+	else if (zipcodes.lookup(input) === undefined)
+		console.error('unknown ZIP code:', input);
 	else
 		return input;
 }
